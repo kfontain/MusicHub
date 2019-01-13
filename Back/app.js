@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(bodyParser.json());
-mongoose.connect('mongodb://localhost:27017/MusicHub', {useNewUrlParser: true});
+mongoose.connect('mongodb://openarena:hunter2@ds161653.mlab.com:61653/musichub', {useNewUrlParser: true});
 const db = mongoose.connection;
 
 app.use('/auth', indexRouter);
