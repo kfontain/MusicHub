@@ -1,1 +1,1 @@
-web: node Back/app.js
+web: cd Back && npm start
