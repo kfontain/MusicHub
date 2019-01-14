@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "startback": "cd Back && npm start"
+  }
+}
