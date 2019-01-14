@@ -1,1 +1,2 @@
+cd Back
 web: node app.js
